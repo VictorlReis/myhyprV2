@@ -25,22 +25,21 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:#394260"
-format = '[[ $symbol $branch ](fg:#282a36 bg:#394260)]($style)'
+format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#394260"
-format = '[[($all_status$ahead_behind )](fg:#282a36 bg:#394260)]($style)'
+style = "bg:#282a36"
+format = '[[($all_status$ahead_behind)](fg:#f0f0f0 bg:#282a36)]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#282a36 bg:#212736)]($style)'
+style = "bg:#282a36"
+format = '[[ $symbol ($version) ](fg:#f0f0f0 bg:#282a36 )]($style)'
 
 [rust]
 symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#282a36 bg:#212736)]($style)'
+style = "bg:#282a36"
+format = '[[ $symbol ($version) ](fg:#f0f0f0 bg:#282a36 )]($style)'
 
 [golang]
 symbol = "ﳑ"
@@ -49,12 +48,11 @@ format = '[[ $symbol ($version) ](fg:#282a36 bg:#212736)]($style)'
 
 [php]
 symbol = ""
-style = "bg:#212736"
+style = "bg:#282a36"
 format = '[[ $symbol ($version) ](fg:#282a36 bg:#212736)]($style)'
 
 [time]
 disabled = true
 time_format = "%R" # Hour:Minute Format
-style = "bg:#1d2230"
-format = '[[  $time ](fg:#a0a9cb bg:#1d2230)]($style)'
-
+style = "bg:#282a36"
+format = '[[  $time ](fg:#a0a9cb bg:#1d:2230)]($style)'
