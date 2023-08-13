@@ -3,7 +3,7 @@
     border-radius: 0;
     font-family: "JetBrainsMono Nerd Font";
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     min-height: 0;
 }
 
@@ -13,12 +13,12 @@ window#waybar {
 }
 
 tooltip {
-    background: #000000;
-    opacity: 0.8;
-    border-radius: 10px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #000000;
+    /* background: #000000; */
+    opacity: 1;
+    /* border-radius: 10px; */
+    /* border-width: 2px; */
+    /* border-style: solid; */
+    /* border-color: #000000; */
 }
 
 tooltip label{
@@ -72,11 +72,11 @@ tooltip label{
 #temperature,
 #workspaces,
 #backlight {
-    background: #000000;
+    /* background: #000000; */
     opacity: 0.8;
     padding: 0px 10px;
     margin: 3px 0px;
-    margin-top: 10px;
+    margin-top: 2px;
     border: 0px;
 }
 
